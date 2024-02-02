@@ -12,10 +12,11 @@ class Human:
   def __init__(self, name, age):
       self.name = name
       self.age = age
+      return
 
       def printinfo(self):
-          print("名前：" + self.name)
-          print("年齢：" + self.age)
+          print("名前：", self.name)
+          print("年齢：", self.age)
 
 # インスタンス化する
 user = Human("侍太郎", 36)
